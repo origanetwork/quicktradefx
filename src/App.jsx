@@ -12,7 +12,7 @@ function App() {
     <div className="h-screen bg-gradient-to-b from-black via-gray-900 to-gray-700 relative overflow-hidden" onClick={handleRedirect}>
 
       {/* Main content */}
-      <div className="relative z-10 flex flex-col items-center justify-start min-h-screen px-4 pt-8 pb-8">
+      <div className="relative z-10 flex flex-col items-center justify-start min-h-screen px-4 pt-8 pb-24">
         {/* Logo */}
         <div className="mx-auto">
           <img src="/quick-trade-logo.png" alt="quick-trade-logo" className='w-24 h-24 mr-4' />
@@ -24,13 +24,13 @@ function App() {
         </div>
 
         {/* Main heading */}
-        <h1 className="text-white text-lg md:text-xl font-semibold text-center mb-8 max-w-2xl leading-6">
-          Crypto Trader | 8years+ Experienced Trading Team | Easy to Use Signals.High quality crypto premium signals 
+        <h1 className="text-white text-lg md:text-xl font-semibold text-center mb-6 md:mb-8 lg:mb-8 max-w-2xl leading-6">
+         Crypto Trader | 8years+ Experienced Trading Team | High-quality, easy-to-use crypto premium signals.
         </h1>
 
         {/* Features card */}
-        <div className="backdrop-blur-xs bg-white/10 rounded-2xl p-5 md:p-6 lg:p-8 mb-10 md:mb-12 lg:mb-14 max-w-md w-full shadow-2xl border-2 border-blue-400">
-          <h2 className="text-white text-sm md:text-xl font-semibold mb-4">Benefits:</h2>
+        <div className="backdrop-blur-xs bg-white/10 rounded-2xl p-5 md:p-6 lg:p-8 mb-6 md:mb-8 lg:mb-10 max-w-md w-full shadow-2xl border-2 border-blue-400">
+          <h2 className="text-white text-sm md:text-xl font-semibold mb-2 md:mb-4 lg:mb-5">Benefits:</h2>
 
           <div className="space-y-1">
             <div className="flex items-center gap-0">
@@ -79,7 +79,7 @@ function App() {
         </div>
 
         {/* CTA Button */}
-        <div className="relative mb-16">
+        <div className="relative mb-8">
           <button className="group relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 via-purple-600 to-blue-700 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 hover:from-blue-500 hover:via-purple-500 hover:to-blue-600 active:from-blue-500 active:via-purple-500 active:to-blue-600 z-10" onClick={() => {
             handleRedirect();
             const button = document.querySelector('button');
@@ -92,21 +92,16 @@ function App() {
             <span className="relative">Join For Free</span>
             <div className="absolute inset-0 bg-gradient-to-r from-blue-400 via-purple-400 to-blue-500 opacity-0 group-hover:opacity-20 rounded-full transition-opacity duration-300"></div>
           </button>
-
-          {/* Logo watermark positioned at bottom of button */}
-          <div className="absolute top-full left-1/2 transform -translate-x-1/2 mt-4 opacity-10 pointer-events-none">
-            {/* <img src="/public/quick-trade.png" alt="quick-trade-logo" className='w-35 h-25 mr-4' /> */}
-          </div>
         </div>
       </div>
 
       {/* Large bottom logo watermark */}
-      <div className="absolute bottom-20 left-1/2 -translate-x-[50%] scale-250 lg:mb-8 transform lg:-translate-x-[50%] md:mb-16 md:left-1/2  md:-translate-x-[60%] md:scale-160 lg:scale-100  opacity-5 pointer-events-none">
+      <div className="absolute bottom-24 left-1/2 -translate-x-[50%] scale-250 lg:mb-8 transform lg:-translate-x-[50%] md:mb-24 md:left-1/2  md:-translate-x-[50%] md:scale-160 lg:scale-100  opacity-5 pointer-events-none">
         <img src="/quick-trade-logo.png" alt="quick-trade-logo" className='w-full h-full' />
       </div>
 
       {/* Footer */}
-      <div className="absolute bottom-4 left-0 right-0 text-center z-20">
+      <div className="absolute bottom-3 left-0 right-0 text-center z-20">
         <p className="text-gray-500 text-sm">
           © 2025 Quick trade. All rights reserved.
         </p>
