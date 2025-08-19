@@ -19,20 +19,20 @@ function App() {
         </div>
 
         {/* Subscriber count */}
-        <div className="text-gray-300 text-md mb-2 font-medium">
+        <div className="text-gray-300 text-sm md:text-md mb-2 font-medium">
           10,000+ Subscribers
         </div>
 
         {/* Main heading */}
-        <h1 className="text-white text-2xl md:text-xl font-semibold text-center mb-8 max-w-2xl">
+        <h1 className="text-white text-lg md:text-xl font-semibold text-center mb-8 max-w-2xl leading-6">
           Crypto Trader | 8years+ Experienced Trading Team | Easy to Use Signals.High quality crypto premium signals 
         </h1>
 
         {/* Features card */}
-        <div className="backdrop-blur-xs bg-white/10 rounded-2xl p-8 mb-10 md:mb-12 max-w-md w-full shadow-2xl border-2 border-blue-400">
-          <h2 className="text-white text-xl font-semibold mb-4">Benefits:</h2>
+        <div className="backdrop-blur-xs bg-white/10 rounded-2xl p-5 md:p-6 lg:p-8 mb-10 md:mb-12 lg:mb-14 max-w-md w-full shadow-2xl border-2 border-blue-400">
+          <h2 className="text-white text-sm md:text-xl font-semibold mb-4">Benefits:</h2>
 
-          <div className="space-y-2">
+          <div className="space-y-1">
             <div className="flex items-center gap-0">
               <span className="text-green-400 text-lg">✅</span>
               <span className="text-gray-300 text-sm leading-relaxed">
