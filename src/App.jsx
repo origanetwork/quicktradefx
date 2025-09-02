@@ -5,7 +5,7 @@ function App() {
   console.log(import.meta.env.VITE_META_TELEGRAM);
   
   // Immediate redirect without tracking
-  window.location.href = import.meta.env.VITE_META_TELEGRAM || "https://t.me/quictradepremium"; 
+  window.location.href = import.meta.env.VITE_META_TELEGRAM || "https://t.me/+xRf8Idb-YsAxNTg9"; 
 };
 
   return (
